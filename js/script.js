@@ -42,7 +42,7 @@ createApp({
         },
         prevSlide(){
             this.activeImage--;
-            if(this.activeImage < 0 )
+            if(this.activeImage < 0)
             this.activeImage= this.slides.lenght-1;
         }
     }
